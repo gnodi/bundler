@@ -1,5 +1,7 @@
 # @gnodi/bundler
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gnodi/bundler.svg)](https://greenkeeper.io/)
+
 [Node.js] No time for transpiling, minifying and bundling your code? Use bundler and do it in just a few minutes!
 
 [![Build][build-image]][build-url]
