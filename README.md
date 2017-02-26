@@ -1,6 +1,6 @@
 # @gnodi/bundler
 
-[Node.js] No time for transpiling, minifying and bundling your code? Use bundler and do it in just a few minutes!
+[Node.js] No time for transpilation, minifying and bundling your code? Use bundler and do it in just a few minutes!
 
 [![Build][build-image]][build-url]
 [![Coverage Status][coverage-image]][coverage-url]
@@ -9,16 +9,23 @@
 [![Dependencies][dependencies-image]][dependencies-url]
 [![Dev Dependencies][dev-dependencies-image]][dev-dependencies-url]
 
-## Installation
+## Installation
 
 Run the following command to add the package to your dev dependencies:
 ```sh
 $ npm install --save-dev @gnodi/bundler
 ```
 
-## Use
+## Use
 
-...
+```js
+const bundler = require('@gnodi/bundler');
+```
+
+### Bundle ES6 code to ES5
+```js
+bundler.compile(6, 5, false, {});
+```
 
 ### LICENSE
 
